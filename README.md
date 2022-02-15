@@ -15,9 +15,9 @@ python -m pip install git+http://github.com/watchdog2000/sploitus
 # Usage
 ```bash
 # Search exploits via title
-$ sploitussearch wordpress
-$ sploitussearch wordpress 1.9.3
+$ sploitus wordpress
+$ sploitus wordpress 1.9.3
 
 # Search through exploit code also, not just relying on titles of exploits
-$ sploitussearch wordpress -v
+$ sploitus wordpress -v
 ```
