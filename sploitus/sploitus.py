@@ -30,6 +30,7 @@ class Sploitus:
             self.search_payload["title"] = False
 
         while True:
+            time.sleep(0.5)  # hopefully stops cloud flare
             if retries > 5:
                 break
 
